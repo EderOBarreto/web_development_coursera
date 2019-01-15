@@ -1,0 +1,81 @@
+.navbar{
+	min-height: 80px;
+}
+
+.navbar-brand{
+	padding: 30px 15px;
+	font-size: 30px;
+}
+
+.navbar-default .navbar-brand{
+	color: #222;
+}
+
+.navbar-header button{
+	background-color: #333;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #333;
+}
+
+.navbar-header .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+.container{
+		width: 100%;
+}
+
+section {
+	background-color: #888;
+	color: #000;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+section h3{
+	margin: 0 auto 10px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+	#collapsable-navbar {
+	background-color:#333;
+	}
+
+	#collapsable-navbar a{
+	color: #fff;
+	font-weight: bold;
+	}
+
+	#collapsable-navbar li {
+		text-align: center;
+	}
+	.navbar-header button{
+	background-color: #333;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	    background-color: #333;
+	}
+
+	.navbar-header .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
