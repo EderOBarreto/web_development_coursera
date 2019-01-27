@@ -60,7 +60,7 @@ section a:hover, section a:active{
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px){
+@media (max-width: 767px){
 	#collapsable-navbar {
 	background-color:#333;
 	}
